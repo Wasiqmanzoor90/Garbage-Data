@@ -3,7 +3,7 @@ import numpy as np
 import pickle
 
 app = Flask(__name__)
-
+#flask app
 @app.route('/', methods=['POST', 'GET'])
 def Home():
     if request.method == 'POST':
