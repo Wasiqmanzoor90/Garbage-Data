@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IMDB Genre Predictor</title>
+</head>
+<body>
+    <h1>IMDB Series Genre Predictor</h1>
+    <form method="post">
+        <label>Series Title:</label><br>
+        <input type="text" name="Series_Title" required><br><br>
+        
+        <label>Released Year:</label><br>
+        <input type="text" name="Released_Year" required><br><br>
+        
+        <input type="submit" value="Predict Genre">
+    </form>
+    <h2>{{ msg }}</h2>
+</body>
+</html>
